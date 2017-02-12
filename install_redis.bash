@@ -16,6 +16,9 @@ if [ ! -f "${HOME}/redis-stable/src/redis-server" ] ; then
 
   # Build Redis
   cd redis-stable
-  make  
+  make
+  
+  # Add to path 
+  echo "export PATH=\$PATH:/home/cuser/cache/redis-stable/src" >> ${HOME}/.bashrc
 fi
 
