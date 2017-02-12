@@ -5,6 +5,7 @@
     git clone git@github.com:Scorpiion/redis_server.git
     cd redis_server
     ./zip.bash
+    cd -
     
 ## Create env 
 
