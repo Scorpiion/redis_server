@@ -1,4 +1,4 @@
-# Running a redis server inside a Sourcevoid app environment
+# Redis server inside a Sourcevoid app environment
 
 ## Create archive (or your own Github repo)
 
