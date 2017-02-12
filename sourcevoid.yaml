@@ -1,0 +1,8 @@
+runtime: cpp
+version: latest
+
+build:
+  - ./install_redis.bash
+
+start: ./start_redis.bash
+
